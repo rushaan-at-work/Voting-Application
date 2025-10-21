@@ -23,7 +23,7 @@ A full-stack **Voting App** built with **Spring Boot (Backend)**, **Angular (Fro
 ## 🛠️ Setup Instructions
 ### Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/voting-app.git
+git clone https://github.com/rushaan-at-work/Voting-Application/tree/main/votingapp
 cd voting-app
 ````
 
