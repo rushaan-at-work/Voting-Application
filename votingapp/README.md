@@ -29,13 +29,12 @@ cd voting-app
 
 ### Install and use the backend
 ```bash
-cd backend
 mvn clean install
 mvn spring-boot:run
 ```
 ### Install and use the frontend
 ```bash
-cd frontend
+cd votingapp-frontend
 npm install
 ng serve
 ```
