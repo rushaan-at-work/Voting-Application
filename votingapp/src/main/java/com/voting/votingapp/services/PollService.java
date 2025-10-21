@@ -40,7 +40,7 @@ public class PollService {
         // Get Selected Option
         OptionVote selectedOption = option.get(optionIndex);
         // Increment the selected option
-        selectedOption.setVotecount(selectedOption.getVotecount()+1);
+        selectedOption.setVoteCount(selectedOption.getVoteCount()+1);
         // Save this in db
         pollRepository.save(poll);
     }

@@ -8,22 +8,22 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Embeddable
 public class OptionVote {
-    private String voteOption;
-    private Long votecount = 0L;
+    private String optionText;
+    private Long voteCount = 0L;
 
-    public String getVoteOption() {
-        return voteOption;
+    public String getOptionText() {
+        return optionText;
     }
 
-    public void setVoteOption(String option) {
-        this.voteOption = option;
+    public void setOptionText(String optionText) {
+        this.optionText = optionText;
     }
 
-    public Long getVotecount() {
-        return votecount;
+    public Long getVoteCount() {
+        return voteCount;
     }
 
-    public void setVotecount(Long votecount) {
-        this.votecount = votecount;
+    public void setVoteCount(Long voteCount) {
+        this.voteCount = voteCount;
     }
 }
